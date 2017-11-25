@@ -1,0 +1,44 @@
+body .line:nth-child(2n) {
+  background-color: rgba(240, 230, 140, .5);
+}
+
+body .line:nth-child(2n+1) {
+  background-color: rgba(230, 230, 250, .5);
+}
+
+.line {
+  width: 800px;
+  height: 55px;
+  margin-top: 10px;
+}
+
+.line > * {
+  box-sizing: border-box;
+}
+
+.buttonMethods,
+.resultMethods {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.buttonMethods {
+  text-align: center;
+  padding-top: 6px;
+  width: 24%;
+}
+
+.button {
+  margin-top: 4px;
+}
+
+.resultMethods {
+  width: 75%;
+  height: 100%;
+  border-left: 2px solid dimgray;
+}
+
+.resultMethods {
+  display: none;
+}
